@@ -33,7 +33,7 @@ header nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px 70px;
-  font-family: roboto, serif;
+  font-family: roboto, sans-serif;
   text-transform: uppercase;
   font-size: 0.8rem;
   -webkit-box-align: center;
@@ -45,7 +45,7 @@ header nav ul li {
 }
 header nav ul li:first-child {
   text-transform: capitalize;
-  font-family: allura, sans-serif;
+  font-family: allura, serif;
   font-size: 2rem;
   margin: 0 60px;
 }
@@ -60,4 +60,39 @@ header nav ul li:last-child i {
 header nav ul li:last-child i:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+header .header-container h1 {
+  text-align: center;
+  width: 50%;
+  margin: 110px auto 0;
+  line-height: 37px;
+}
+header .header-container h1 span:first-child {
+  font-family: allura, serif;
+  color: rgb(181, 117, 53);
+  font-size: 3rem;
+  font-weight: 100;
+  display: block;
+}
+header .header-container h1 span:last-child {
+  font-family: poppins, sans-serif;
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 10px;
+  display: block;
+}
+header .header-container div {
+  background: url(../../img/dish-gallery-06.jpg) center/cover;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 50px;
+}
+header p {
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: roboto, sans-serif;
+  letter-spacing: 5px;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=index.css.map */
