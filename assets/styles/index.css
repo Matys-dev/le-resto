@@ -48,6 +48,7 @@ header nav ul li:first-child {
   font-family: allura, serif;
   font-size: 2rem;
   margin: 0 60px;
+  font-weight: 900;
 }
 header nav ul li:last-child {
   margin: 0 30px;
@@ -82,11 +83,11 @@ header .header-container h1 span:last-child {
   letter-spacing: 10px;
   display: block;
 }
-header .header-container div {
-  background: url(../../img/dish-gallery-06.jpg) center/cover;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto 50px;
+header .header-container .logo1 {
+  background: url(/assets/img/ic-plate-big.png) center/cover;
+  width: 30px;
+  height: 30px;
+  margin: 50px auto 30px;
 }
 header p {
   color: rgb(247, 247, 247);
@@ -95,4 +96,76 @@ header p {
   font-family: roboto, sans-serif;
   letter-spacing: 5px;
   font-size: 0.8rem;
+}
+
+.section1-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 45vh;
+}
+.section1-container .left-part-container {
+  background: rgb(247, 247, 247);
+  padding: 10px;
+}
+.section1-container .left-part-container .left-part {
+  background: rgb(247, 247, 247);
+  border: dashed rgb(181, 117, 53);
+  height: 100%;
+  padding: 40px 8px;
+}
+.section1-container .left-part-container .left-part h3 {
+  text-align: center;
+  line-height: 17px;
+  margin: 13px auto 0;
+}
+.section1-container .left-part-container .left-part h3 span:first-child {
+  font-family: allura, serif;
+  color: rgb(181, 117, 53);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-weight: 100;
+  display: block;
+}
+.section1-container .left-part-container .left-part h3 span:last-child {
+  font-family: poppins, sans-serif;
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+  font-size: 1rem;
+  display: block;
+}
+.section1-container .left-part-container .left-part .logo2 {
+  background: url(/assets/img/ic-plate.png) center/cover;
+  height: 20px;
+  width: 20px;
+  margin: 20px auto;
+}
+.section1-container .left-part-container .left-part p {
+  font-family: roboto, sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(65, 64, 64, 0.86);
+}
+.section1-container .left-part-container .left-part .head1 {
+  background: url(/assets/img/avatar-01.jpg) center/cover;
+  height: 60px;
+  width: 60px;
+  margin: 20px auto;
+  border-radius: 50px;
+}
+.section1-container .left-part-container .left-part h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: poppins, sans-serif;
+  font-size: 0.8rem;
+}
+.section1-container .left-part-container .left-part h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+  font-size: 0.6rem;
+  color: rgba(71, 71, 71, 0.388);
+}
+.section1-container .right-part {
+  background: url(/assets/img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */
