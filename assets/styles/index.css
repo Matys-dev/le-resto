@@ -530,4 +530,94 @@ header p {
 .right-part .dishes4 p:last-child {
   color: rgb(181, 117, 53);
   font-weight: 900;
+}
+
+.section5 {
+  min-height: 100vh;
+  background: rgb(29, 29, 29);
+}
+.section5 .reservations-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  min-height: 500px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.section5 .reservations-container .left-part-container {
+  background: rgb(5, 5, 5);
+  padding: 20px;
+}
+.section5 .reservations-container .left-part-container .left-part {
+  background: rgb(5, 5, 5);
+  color: rgb(247, 247, 247);
+  border: 1px dashed rgb(247, 247, 247);
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.section5 .reservations-container .left-part-container .left-part h5:first-child {
+  line-height: 17px;
+}
+.section5 .reservations-container .left-part-container .left-part h5:first-child span:first-child {
+  font-family: allura, serif;
+  color: rgb(181, 117, 53);
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  display: block;
+  font-weight: 100;
+}
+.section5 .reservations-container .left-part-container .left-part h5:first-child span:last-child {
+  font-family: poppins, sans-serif;
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.section5 .reservations-container .left-part-container .left-part div {
+  height: 20px;
+  width: 20px;
+  background: url(/assets/img/ic-plate.png) center/cover;
+  margin: 20px auto;
+}
+.section5 .reservations-container .left-part-container .left-part .schedules {
+  text-transform: uppercase;
+  margin: 30px auto 15px;
+  font-family: poppins, sans-serif;
+  color: rgb(181, 117, 53);
+}
+.section5 .reservations-container .left-part-container .left-part p {
+  font-family: roboto, sans-serif;
+  font-size: 0.8rem;
+}
+.section5 .reservations-container .right-part {
+  background: rgb(247, 247, 247);
+  padding: 50px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section5 .reservations-container .right-part h4 {
+  line-height: 23px;
+}
+.section5 .reservations-container .right-part h4 span:first-child {
+  font-family: allura, serif;
+  color: rgb(181, 117, 53);
+  text-transform: capitalize;
+  font-size: 2rem;
+  display: block;
+  font-weight: 100;
+}
+.section5 .reservations-container .right-part h4 span:last-child {
+  font-family: poppins, sans-serif;
+  color: rgb(247, 247, 247);
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: rgb(5, 5, 5);
+}
+.section5 .reservations-container .right-part .logo3 {
+  height: 20px;
+  width: 20px;
+  background: url(/assets/img/ic-plate.png) center/cover;
+  margin: 20px auto;
 }/*# sourceMappingURL=index.css.map */

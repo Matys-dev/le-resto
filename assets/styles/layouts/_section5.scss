@@ -1,3 +1,87 @@
 .section5 {
-    
+  min-height: 100vh;
+  background: $black2;
+
+  .reservations-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    min-height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    .left-part-container {
+      background: $black1;
+      padding: 20px;
+
+      .left-part {
+        background: $black1;
+        color: $white1;
+        border: 1px dashed $white1;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+
+        h5:first-child {
+          line-height: 17px;
+          span:first-child {
+            @include title1;
+            text-transform: capitalize;
+            font-size: 1.8rem;
+            display: block;
+            font-weight: 100;
+          }
+          span:last-child {
+            @include title2;
+            font-size: 1rem;
+          }
+        }
+        div {
+          height: 20px;
+          width: 20px;
+          background: url(/assets/img/ic-plate.png) center/cover;
+          margin: 20px auto;
+        }
+        .schedules {
+          text-transform: uppercase;
+          margin: 30px auto 15px;
+          font-family: $font2;
+          color: $brown1;
+        }
+        p {
+          font-family: $font3;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .right-part {
+      background: $white1;
+      padding: 50px;
+      text-align: center;
+      align-items: center;
+
+      h4 {
+        line-height: 23px;
+        span:first-child {
+          @include title1;
+          text-transform: capitalize;
+          font-size: 2rem;
+          display: block;
+          font-weight: 100;
+        }
+        span:last-child {
+          @include title2;
+          font-size: 1.5em;
+          color: $black1;
+        }
+      }
+      .logo3 {
+        height: 20px;
+        width: 20px;
+        background: url(/assets/img/ic-plate.png) center/cover;
+        margin: 20px auto;
+      }
+    }
+  }
 }
