@@ -239,6 +239,295 @@ header p {
   width: 60%;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 500px;
+  min-height: 550px;
   border-top: 4px solid rgb(181, 117, 53);
+}
+.section4 .section4-container .left-part .dishes1 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.section4 .section4-container .left-part .dishes1 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-01.jpg) center/cover;
+  border-radius: 50px;
+}
+.section4 .section4-container .left-part .dishes1 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.section4 .section4-container .left-part .dishes1 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.section4 .section4-container .left-part .dishes1 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.section4 .section4-container .left-part .dishes1 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.section4 .section4-container .left-part .dishes2 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.section4 .section4-container .left-part .dishes2 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-03.jpg) center/cover;
+  border-radius: 50px;
+}
+.section4 .section4-container .left-part .dishes2 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.section4 .section4-container .left-part .dishes2 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.section4 .section4-container .left-part .dishes2 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.section4 .section4-container .left-part .dishes2 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.section4 .section4-container .left-part .dishes3 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.section4 .section4-container .left-part .dishes3 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-05.jpg) center/cover;
+  border-radius: 50px;
+}
+.section4 .section4-container .left-part .dishes3 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.section4 .section4-container .left-part .dishes3 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.section4 .section4-container .left-part .dishes3 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.section4 .section4-container .left-part .dishes3 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.section4 .section4-container .left-part .dishes4 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.section4 .section4-container .left-part .dishes4 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-07.jpg) center/cover;
+  border-radius: 50px;
+}
+.section4 .section4-container .left-part .dishes4 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.section4 .section4-container .left-part .dishes4 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.section4 .section4-container .left-part .dishes4 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.section4 .section4-container .left-part .dishes4 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+
+.right-part .dishes1 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.right-part .dishes1 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-02.jpg) center/cover;
+  border-radius: 50px;
+}
+.right-part .dishes1 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.right-part .dishes1 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.right-part .dishes1 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.right-part .dishes1 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.right-part .dishes2 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.right-part .dishes2 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-04.jpg) center/cover;
+  border-radius: 50px;
+}
+.right-part .dishes2 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.right-part .dishes2 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.right-part .dishes2 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.right-part .dishes2 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.right-part .dishes3 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.right-part .dishes3 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-06.jpg) center/cover;
+  border-radius: 50px;
+}
+.right-part .dishes3 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.right-part .dishes3 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.right-part .dishes3 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.right-part .dishes3 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
+}
+.right-part .dishes4 {
+  display: grid;
+  grid-template-columns: 25% 55% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed rgba(71, 71, 71, 0.388);
+}
+.right-part .dishes4 div {
+  height: 70px;
+  width: 70px;
+  background: url(/assets/img/dish-item-08.jpg) center/cover;
+  border-radius: 50px;
+}
+.right-part .dishes4 p {
+  font-family: roboto, sans-serif;
+  line-height: 17px;
+}
+.right-part .dishes4 p span:first-child {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.7rem;
+  display: block;
+}
+.right-part .dishes4 p span:last-child {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  display: block;
+  color: rgba(65, 64, 64, 0.86);
+}
+.right-part .dishes4 p:last-child {
+  color: rgb(181, 117, 53);
+  font-weight: 900;
 }/*# sourceMappingURL=index.css.map */
