@@ -16,6 +16,12 @@ header {
 
       li {
         cursor: pointer;
+        transition: 0.2s;
+
+        &:hover:not(:first-child):not(:last-child) {
+          color: $brown1;
+          transform: scale(1.02);
+        }
       }
 
       li:first-child {

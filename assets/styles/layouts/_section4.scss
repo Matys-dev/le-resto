@@ -1,0 +1,59 @@
+.section4 {
+  .section4-container {
+    .section4-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 770px);
+      text-align: center;
+      h3 {
+        @include title1;
+        text-transform: capitalize;
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+      div {
+        background: url(/assets/img/ic-plate.png) center/cover;
+        height: 25px;
+        width: 25px;
+        margin: 20px auto;
+      }
+
+      nav {
+        ul {
+          display: flex;
+          color: $white1;
+          font-family: $font3;
+          text-transform: capitalize;
+          gap: 80px;
+          font-size: 0.8rem;
+        }
+        li {
+          cursor: pointer;
+          border-bottom: 1px solid $white1;
+          padding: 3px 0;
+
+          &:hover {
+            color: $brown1;
+            transition: 0.3s;
+            border-bottom: 1px solid $brown1;
+          }
+        }
+      }
+    }
+    .menu {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 930px);
+      background: $white1;
+      width: 60%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      height: 500px;
+      border-top: 4px solid $brown1;
+    }
+    
+  }
+}
