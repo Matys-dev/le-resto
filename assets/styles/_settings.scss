@@ -34,6 +34,13 @@ $font3: roboto, sans-serif;
   text-transform: uppercase;
 }
 
+@mixin resa {
+  border: none;
+  border-bottom: 1px solid rgba(71, 71, 71, 0.388);
+  text-transform: capitalize;
+  background: none;
+}
+
 * {
   margin: 0;
   padding: 0;
