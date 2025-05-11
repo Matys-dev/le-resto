@@ -1,5 +1,5 @@
 .section5 {
-  min-height: 300vh;
+  min-height: 210vh;
   background: $black2;
 
   .reservations-container {
@@ -170,7 +170,7 @@
       display: grid;
       grid-template-columns: 60% 40%;
       width: 70%;
-      height: 400px;
+      height: 320px;
       margin: 0 auto;
 
       .left-part {
@@ -182,7 +182,7 @@
           display: grid;
           grid-template-columns: 40% 60%;
           margin-bottom: 20px;
-          height: 100%;
+          height: 60%;
           .left-part {
             background: url(/assets/img/event-01.jpg) center/cover;
             position: relative;
@@ -212,29 +212,27 @@
           }
           .right-part {
             font-family: $font3;
-            padding: 20px;
+            padding: 30px 20px;
             background: $white1;
-            .right-part-container {
-              h6 {
-                font-size: 1rem;
-                letter-spacing: 2px;
-                font-weight: 100;
-                &:last-child {
-                  text-transform: uppercase;
-                  font-size: 0.6rem;
-                  font-weight: 900;
-                  cursor: pointer;
-                  &:hover {
-                    color: $brown1;
-                  }
+            h6 {
+              font-size: 1rem;
+              letter-spacing: 2px;
+              font-weight: 100;
+              &:last-child {
+                text-transform: uppercase;
+                font-size: 0.6rem;
+                font-weight: 900;
+                cursor: pointer;
+                &:hover {
+                  color: $brown1;
                 }
               }
-              p {
-                color: rgba(71, 71, 71, 0.388);
-                font-size: 0.7rem;
-                letter-spacing: 1px;
-                margin: 20px 0;
-              }
+            }
+            p {
+              color: rgba(71, 71, 71, 0.388);
+              font-size: 0.7rem;
+              letter-spacing: 1px;
+              margin: 20px 0;
             }
           }
         }
@@ -242,7 +240,7 @@
         .event2 {
           display: grid;
           grid-template-columns: 40% 60%;
-          height: 100%;
+          height: 60%;
           .left-part {
             background: url(/assets/img/event-02.jpg) center/cover;
             position: relative;
@@ -272,7 +270,7 @@
           }
           .right-part {
             font-family: $font3;
-            padding: 20px;
+            padding: 30px 20px;
             background: $white1;
             h6 {
               font-size: 1rem;
@@ -338,28 +336,30 @@
                 }
               }
             }
-            h6 {
-              font-size: 1rem;
-              letter-spacing: 2px;
-              font-weight: 100;
-              margin-top: 20px;
-              text-align: center;
-              &:last-child {
-                text-transform: uppercase;
-                font-size: 0.6rem;
-                font-weight: 900;
-                text-align: left;
-                cursor: pointer;
-                &:hover {
-                  color: $brown1;
+            .text-events {
+              padding: 10px;
+              h6 {
+                font-size: 1rem;
+                letter-spacing: 2px;
+                font-weight: 100;
+                margin-top: 20px;
+                text-align: center;
+                &:last-child {
+                  text-transform: uppercase;
+                  font-size: 0.7rem;
+                  font-weight: 900;
+                  cursor: pointer;
+                  &:hover {
+                    color: $brown1;
+                  }
                 }
               }
-            }
-            p {
-              color: rgba(71, 71, 71, 0.388);
-              font-size: 0.7rem;
-              letter-spacing: 1px;
-              margin: 20px 0;
+              p {
+                color: rgba(71, 71, 71, 0.388);
+                font-size: 0.7rem;
+                letter-spacing: 1px;
+                margin: 30px 0 60px;
+              }
             }
           }
         }
