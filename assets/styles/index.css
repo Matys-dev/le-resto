@@ -731,13 +731,27 @@ header p {
 }
 .section5 .events .events-container {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 60% 40%;
   width: 70%;
+  height: 400px;
   margin: 0 auto;
+}
+.section5 .events .events-container .left-part {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 20px;
 }
 .section5 .events .events-container .left-part .event1 {
   display: grid;
   grid-template-columns: 40% 60%;
+  margin-bottom: 20px;
+  height: 100%;
 }
 .section5 .events .events-container .left-part .event1 .left-part {
   background: url(/assets/img/event-01.jpg) center/cover;
@@ -772,21 +786,21 @@ header p {
   padding: 20px;
   background: rgb(247, 247, 247);
 }
-.section5 .events .events-container .left-part .event1 .right-part h6 {
+.section5 .events .events-container .left-part .event1 .right-part .right-part-container h6 {
   font-size: 1rem;
   letter-spacing: 2px;
   font-weight: 100;
 }
-.section5 .events .events-container .left-part .event1 .right-part h6:last-child {
+.section5 .events .events-container .left-part .event1 .right-part .right-part-container h6:last-child {
   text-transform: uppercase;
   font-size: 0.6rem;
   font-weight: 900;
   cursor: pointer;
 }
-.section5 .events .events-container .left-part .event1 .right-part h6:last-child:hover {
+.section5 .events .events-container .left-part .event1 .right-part .right-part-container h6:last-child:hover {
   color: rgb(181, 117, 53);
 }
-.section5 .events .events-container .left-part .event1 .right-part p {
+.section5 .events .events-container .left-part .event1 .right-part .right-part-container p {
   color: rgba(71, 71, 71, 0.388);
   font-size: 0.7rem;
   letter-spacing: 1px;
@@ -795,6 +809,7 @@ header p {
 .section5 .events .events-container .left-part .event2 {
   display: grid;
   grid-template-columns: 40% 60%;
+  height: 100%;
 }
 .section5 .events .events-container .left-part .event2 .left-part {
   background: url(/assets/img/event-02.jpg) center/cover;
@@ -876,17 +891,18 @@ header p {
   color: rgb(247, 247, 247);
   margin: 0 auto;
 }
-.section5 .events .events-container .right-part .event3 .event3-container .date h6 {
+.section5 .events .events-container .right-part .event3 .event3-container .date .h6-date {
   text-align: center;
   padding: 6px;
+  margin: 0;
 }
-.section5 .events .events-container .right-part .event3 .event3-container .date h6 span:first-child {
+.section5 .events .events-container .right-part .event3 .event3-container .date .h6-date span:first-child {
   color: rgb(247, 247, 247);
   font-family: roboto, sans-serif;
   font-size: 1.6rem;
   display: block;
 }
-.section5 .events .events-container .right-part .event3 .event3-container .date h6 span:last-child {
+.section5 .events .events-container .right-part .event3 .event3-container .date .h6-date span:last-child {
   color: rgb(247, 247, 247);
   font-family: roboto, sans-serif;
   font-size: 0.8rem;
@@ -895,11 +911,14 @@ header p {
   font-size: 1rem;
   letter-spacing: 2px;
   font-weight: 100;
+  margin-top: 20px;
+  text-align: center;
 }
 .section5 .events .events-container .right-part .event3 .event3-container h6:last-child {
   text-transform: uppercase;
   font-size: 0.6rem;
   font-weight: 900;
+  text-align: left;
   cursor: pointer;
 }
 .section5 .events .events-container .right-part .event3 .event3-container h6:last-child:hover {

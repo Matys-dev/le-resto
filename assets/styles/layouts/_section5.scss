@@ -168,14 +168,21 @@
     }
     .events-container {
       display: grid;
-      grid-template-columns: 55% 45%;
+      grid-template-columns: 60% 40%;
       width: 70%;
+      height: 400px;
       margin: 0 auto;
 
       .left-part {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
         .event1 {
           display: grid;
           grid-template-columns: 40% 60%;
+          margin-bottom: 20px;
+          height: 100%;
           .left-part {
             background: url(/assets/img/event-01.jpg) center/cover;
             position: relative;
@@ -207,25 +214,27 @@
             font-family: $font3;
             padding: 20px;
             background: $white1;
-            h6 {
-              font-size: 1rem;
-              letter-spacing: 2px;
-              font-weight: 100;
-              &:last-child {
-                text-transform: uppercase;
-                font-size: 0.6rem;
-                font-weight: 900;
-                cursor: pointer;
-                &:hover {
-                  color: $brown1;
+            .right-part-container {
+              h6 {
+                font-size: 1rem;
+                letter-spacing: 2px;
+                font-weight: 100;
+                &:last-child {
+                  text-transform: uppercase;
+                  font-size: 0.6rem;
+                  font-weight: 900;
+                  cursor: pointer;
+                  &:hover {
+                    color: $brown1;
+                  }
                 }
               }
-            }
-            p {
-              color: rgba(71, 71, 71, 0.388);
-              font-size: 0.7rem;
-              letter-spacing: 1px;
-              margin: 20px 0;
+              p {
+                color: rgba(71, 71, 71, 0.388);
+                font-size: 0.7rem;
+                letter-spacing: 1px;
+                margin: 20px 0;
+              }
             }
           }
         }
@@ -233,6 +242,7 @@
         .event2 {
           display: grid;
           grid-template-columns: 40% 60%;
+          height: 100%;
           .left-part {
             background: url(/assets/img/event-02.jpg) center/cover;
             position: relative;
@@ -311,9 +321,10 @@
               height: 65px;
               color: $white1;
               margin: 0 auto;
-              h6 {
+              .h6-date {
                 text-align: center;
                 padding: 6px;
+                margin: 0;
                 span:first-child {
                   color: $white1;
                   font-family: $font3;
@@ -331,10 +342,13 @@
               font-size: 1rem;
               letter-spacing: 2px;
               font-weight: 100;
+              margin-top: 20px;
+              text-align: center;
               &:last-child {
                 text-transform: uppercase;
                 font-size: 0.6rem;
                 font-weight: 900;
+                text-align: left;
                 cursor: pointer;
                 &:hover {
                   color: $brown1;
