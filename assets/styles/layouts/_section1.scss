@@ -68,5 +68,12 @@
   }
   .right-part {
     background: url(/assets/img/store-01.jpg) center/cover;
+
+    @media screen and (max-width: 801px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 801px) {
+    display: block;
   }
 }

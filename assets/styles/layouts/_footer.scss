@@ -39,6 +39,7 @@ footer {
           background: none;
           border: 1px solid $grey1;
           padding: 10px;
+          color: $white1;
 
           &:focus {
             outline: 1px solid $brown1;
@@ -73,5 +74,25 @@ footer {
         }
       }
     }
+    @media screen and (max-width: 801px) {
+      display: block;
+      .left-part {
+        display: none;
+      }
+      .right-part {
+        padding: 60px 30px;
+        min-height: 220px;
+        .newsletter,
+        .socials {
+          margin: 0;
+        }
+        .socials {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 801px) {
+    background: url(/assets/img/bg-footer.jpg) right;
   }
 }

@@ -1,7 +1,7 @@
 .section7 {
   background: $white1;
   width: 70%;
-  height: 300px;
+  min-height: 300px;
   margin: 0 auto;
   position: absolute;
   top: 50%;
@@ -47,6 +47,21 @@
       font-size: 0.9rem;
       font-weight: 100;
       color: $brown1;
+    }
+  }
+  @media screen and (max-width: 1014px) {
+    transform: translate(-50%, 3700px);
+  }
+  @media screen and (max-width: 801px) {
+    transform: translate(-50%, 3400px);
+    min-height: 400px;
+    .avatar {
+      transform: translate(-50%, -230px)
+    }
+  }
+  @media screen and (max-width:478px) {
+    .avatar {
+      transform: translate(-50%, -240px);
     }
   }
 }

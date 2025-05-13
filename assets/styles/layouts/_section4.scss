@@ -40,6 +40,15 @@
             border-bottom: 1px solid $brown1;
           }
         }
+        @media screen and (max-width: 801px) {
+          ul {
+            gap: 40px;
+            li {
+              font-size: 0.7rem;
+              padding: 7px 0;
+            }
+          }
+        }
       }
     }
     .menu {
@@ -53,6 +62,14 @@
       grid-template-columns: 50% 50%;
       min-height: 550px;
       border-top: 4px solid $brown1;
+
+      @media screen and (max-width: 1014px) {
+        display: block;
+        min-height: 1080px;
+      }
+      @media screen and (max-width: 801px) {
+        width: 90%;
+      }
     }
 
     .left-part {
