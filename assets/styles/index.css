@@ -33,7 +33,7 @@ header nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px 70px;
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   text-transform: uppercase;
   font-size: 0.8rem;
   -webkit-box-align: center;
@@ -52,7 +52,7 @@ header nav ul li:hover:not(:first-child):not(:last-child) {
 }
 header nav ul li:first-child {
   text-transform: capitalize;
-  font-family: allura, serif;
+  font-family: allura, cursive;
   font-size: 2rem;
   margin: 0 60px;
   font-weight: 900;
@@ -84,14 +84,14 @@ header .header-container h1 {
   line-height: 37px;
 }
 header .header-container h1 span:first-child {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   font-size: 3rem;
   font-weight: 100;
   display: block;
 }
 header .header-container h1 span:last-child {
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   font-size: 2.8rem;
@@ -126,7 +126,7 @@ header p {
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   text-align: center;
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   letter-spacing: 5px;
   font-size: 0.8rem;
 }
@@ -158,7 +158,7 @@ header p {
   margin: 13px auto 0;
 }
 .section1-container .left-part-container .left-part h3 span:first-child {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   font-size: 1.6rem;
@@ -166,7 +166,7 @@ header p {
   display: block;
 }
 .section1-container .left-part-container .left-part h3 span:last-child {
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   color: rgb(5, 5, 5);
@@ -180,7 +180,7 @@ header p {
   margin: 20px auto;
 }
 .section1-container .left-part-container .left-part p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   text-align: center;
   font-size: 0.9rem;
   color: rgba(65, 64, 64, 0.86);
@@ -195,13 +195,13 @@ header p {
 .section1-container .left-part-container .left-part h4 {
   text-align: center;
   text-transform: capitalize;
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   font-size: 0.8rem;
 }
 .section1-container .left-part-container .left-part h5 {
   text-align: center;
   text-transform: uppercase;
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   font-size: 0.6rem;
   color: rgba(71, 71, 71, 0.388);
 }
@@ -243,7 +243,7 @@ header p {
   text-align: center;
 }
 .section4 .section4-container .section4-title h3 {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   font-size: 1.6rem;
@@ -260,7 +260,7 @@ header p {
   display: -ms-flexbox;
   display: flex;
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   text-transform: capitalize;
   gap: 80px;
   font-size: 0.8rem;
@@ -326,7 +326,7 @@ header p {
   border-radius: 50px;
 }
 .section4 .section4-container .left-part .dishes1 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .section4 .section4-container .left-part .dishes1 p span:first-child {
@@ -362,7 +362,7 @@ header p {
   border-radius: 50px;
 }
 .section4 .section4-container .left-part .dishes2 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .section4 .section4-container .left-part .dishes2 p span:first-child {
@@ -398,7 +398,7 @@ header p {
   border-radius: 50px;
 }
 .section4 .section4-container .left-part .dishes3 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .section4 .section4-container .left-part .dishes3 p span:first-child {
@@ -434,7 +434,7 @@ header p {
   border-radius: 50px;
 }
 .section4 .section4-container .left-part .dishes4 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .section4 .section4-container .left-part .dishes4 p span:first-child {
@@ -471,7 +471,7 @@ header p {
   border-radius: 50px;
 }
 .right-part .dishes1 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .right-part .dishes1 p span:first-child {
@@ -507,7 +507,7 @@ header p {
   border-radius: 50px;
 }
 .right-part .dishes2 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .right-part .dishes2 p span:first-child {
@@ -543,7 +543,7 @@ header p {
   border-radius: 50px;
 }
 .right-part .dishes3 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .right-part .dishes3 p span:first-child {
@@ -579,7 +579,7 @@ header p {
   border-radius: 50px;
 }
 .right-part .dishes4 p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   line-height: 17px;
 }
 .right-part .dishes4 p span:first-child {
@@ -627,7 +627,7 @@ header p {
   line-height: 17px;
 }
 .section5 .reservations-container .left-part-container .left-part h5:first-child span:first-child {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   font-size: 1.8rem;
@@ -635,7 +635,7 @@ header p {
   font-weight: 100;
 }
 .section5 .reservations-container .left-part-container .left-part h5:first-child span:last-child {
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   font-size: 1rem;
@@ -649,11 +649,11 @@ header p {
 .section5 .reservations-container .left-part-container .left-part .schedules {
   text-transform: uppercase;
   margin: 30px auto 15px;
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(181, 117, 53);
 }
 .section5 .reservations-container .left-part-container .left-part p {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.8rem;
 }
 .section5 .reservations-container .right-part {
@@ -668,7 +668,7 @@ header p {
   line-height: 23px;
 }
 .section5 .reservations-container .right-part h4 span:first-child {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   font-size: 2rem;
@@ -676,7 +676,7 @@ header p {
   font-weight: 100;
 }
 .section5 .reservations-container .right-part h4 span:last-child {
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   font-size: 1.5em;
@@ -765,7 +765,7 @@ header p {
   color: rgb(247, 247, 247);
   border: none;
   text-transform: uppercase;
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   letter-spacing: 4px;
   font-size: 0.7rem;
   cursor: pointer;
@@ -815,7 +815,7 @@ header p {
   line-height: 31px;
 }
 .section5 .events h3 span:first-child {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   display: block;
@@ -823,7 +823,7 @@ header p {
   font-weight: 100;
 }
 .section5 .events h3 span:last-child {
-  font-family: poppins, sans-serif;
+  font-family: poppins, serif;
   color: rgb(247, 247, 247);
   text-transform: uppercase;
   text-transform: uppercase;
@@ -878,17 +878,17 @@ header p {
 }
 .section5 .events .events-container .left-part .event1 .left-part .date h6 span:first-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 1.6rem;
   display: block;
 }
 .section5 .events .events-container .left-part .event1 .left-part .date h6 span:last-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.8rem;
 }
 .section5 .events .events-container .left-part .event1 .right-part {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   padding: 30px 20px;
   background: rgb(247, 247, 247);
 }
@@ -936,17 +936,17 @@ header p {
 }
 .section5 .events .events-container .left-part .event2 .left-part .date h6 span:first-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 1.6rem;
   display: block;
 }
 .section5 .events .events-container .left-part .event2 .left-part .date h6 span:last-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.8rem;
 }
 .section5 .events .events-container .left-part .event2 .right-part {
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   padding: 30px 20px;
   background: rgb(247, 247, 247);
 }
@@ -986,7 +986,7 @@ header p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   padding: 0 20px;
   background: rgb(247, 247, 247);
 }
@@ -1004,13 +1004,13 @@ header p {
 }
 .section5 .events .events-container .right-part .event3 .event3-container .date .h6-date span:first-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 1.6rem;
   display: block;
 }
 .section5 .events .events-container .right-part .event3 .event3-container .date .h6-date span:last-child {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.8rem;
 }
 .section5 .events .events-container .right-part .event3 .event3-container .text-events {
@@ -1083,7 +1083,7 @@ header p {
 }
 .section7 .quote p {
   text-align: center;
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   margin: 70px 30px 0;
   line-height: 30px;
   font-size: 0.8rem;
@@ -1097,14 +1097,14 @@ header p {
 .section7 .quote h4 {
   text-align: center;
   margin: 20px;
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 1.2rem;
   font-weight: 100;
 }
 .section7 .quote h6 {
   text-align: center;
   margin: 20px;
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.9rem;
   font-weight: 100;
   color: rgb(181, 117, 53);
@@ -1144,7 +1144,7 @@ footer .footer-container .left-part {
   margin: 50px 20px 50px 150px;
 }
 footer .footer-container .left-part h4 {
-  font-family: allura, serif;
+  font-family: allura, cursive;
   color: rgb(181, 117, 53);
   text-transform: capitalize;
   font-size: 2rem;
@@ -1152,7 +1152,7 @@ footer .footer-container .left-part h4 {
 }
 footer .footer-container .left-part p {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   font-size: 0.8rem;
   line-height: 25px;
   color: rgb(179, 179, 179);
@@ -1169,7 +1169,7 @@ footer .footer-container .right-part .newsletter {
 }
 footer .footer-container .right-part .newsletter label {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 0.8rem;
@@ -1193,7 +1193,7 @@ footer .footer-container .right-part .socials {
 }
 footer .footer-container .right-part .socials p {
   color: rgb(247, 247, 247);
-  font-family: roboto, sans-serif;
+  font-family: roboto, serif;
   text-transform: uppercase;
   font-size: 0.8rem;
 }
